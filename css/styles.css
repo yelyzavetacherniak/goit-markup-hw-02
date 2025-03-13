@@ -56,25 +56,32 @@ a {
     color: #404bbf;
 }
 
+.title-button:hover,
+.title-button:focus, {
+    color: #404bbf;
+}
+
 .section-one {
 background-color:#2E2F42;
 }
 
 .title {
     font-size: 56px;
+    line-height: 1.07;
     letter-spacing: 0.02em;
+    text-align: center;
     color: #FFFFFF;
-
 }
 
 .title-button {
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #FFFFFF;
     background-color: #4D5AE5;
     border: none;
-    border-radius: 4px;
+    cursor: pointer;
 }
 
 .section-title {
@@ -83,6 +90,10 @@ background-color:#2E2F42;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+}
+
+.images-team {
+background-color: #FFFFFF;
 }
 
 .section-text {
@@ -96,9 +107,12 @@ background-color:#2E2F42;
 }
 
 .team-title {
+    line-height: 1.11;
     font-size: 36px;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    text-align: center;
+    text-transform: capitalize;
 }
 
 .page-footer {
