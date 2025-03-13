@@ -47,6 +47,7 @@ a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color:#434455;
 }
 
 .nav-link:hover,
@@ -57,7 +58,7 @@ a {
 }
 
 .title-button:hover,
-.title-button:focus, {
+.title-button:focus {
     color: #404bbf;
 }
 
@@ -92,10 +93,6 @@ background-color:#2E2F42;
     color: #2E2F42;
 }
 
-.images-team {
-background-color: #FFFFFF;
-}
-
 .section-text {
     font-size: 16px;
     line-height: 1.5;
@@ -124,4 +121,8 @@ background-color: #FFFFFF;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+}
+
+.list-item {
+    background-color: #FFFFFF;
 }
