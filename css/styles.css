@@ -79,7 +79,7 @@ background-color:#2E2F42;
 
 .title-button:hover,
 .title-button:focus {
-    color: #404bbf;
+    background-color: #404bbf;
 }
 
 .section-title {
