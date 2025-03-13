@@ -27,9 +27,6 @@ a {
     color: #2e2f42;
 }
 
-.logo .logo-footer {
-    color: #f4f4fd;
-}
 
 .nav-link {
     font-weight: 500;
@@ -57,11 +54,6 @@ a {
     color: #404bbf;
 }
 
-.title-button:hover,
-.title-button:focus {
-    color: #404bbf;
-}
-
 .section-one {
 background-color:#2E2F42;
 }
@@ -83,6 +75,11 @@ background-color:#2E2F42;
     background-color: #4D5AE5;
     border: none;
     cursor: pointer;
+}
+
+.title-button:hover,
+.title-button:focus {
+    color: #404bbf;
 }
 
 .section-title {
@@ -112,8 +109,16 @@ background-color:#2E2F42;
     text-transform: capitalize;
 }
 
+.list-item {
+    background-color: #FFFFFF;
+}
+
 .page-footer {
     background-color: #2E2F42;
+}
+
+.logo .logo-footer {
+    color: #f4f4fd;
 }
 
 .footer-text {
@@ -121,8 +126,4 @@ background-color:#2E2F42;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
-}
-
-.list-item {
-    background-color: #FFFFFF;
 }
